@@ -1,4 +1,5 @@
-# be-integrity api
+# integrity_api_sv_demo
+
 - Decrypt and verify the integrity verdict
 After you request an integrity verdict, the Play Integrity API provides an encrypted response token. To obtain the device integrity verdicts, you must decrypt the integrity token on Google's servers. To do so, complete these steps:
 
