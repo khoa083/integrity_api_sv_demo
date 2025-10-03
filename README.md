@@ -1,4 +1,4 @@
-# integrity_api_sv_demo
+# Decrypt and verify the integrity verdict
 > [!NOTE]
 > "If you want all the code in a single file, checkout to the <b>monofile</b> branch." ✅
 
