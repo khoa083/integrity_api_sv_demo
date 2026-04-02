@@ -22,7 +22,6 @@ app.post('/verify-integrity', async (req, res, next) => {
     if (!process.env.GOOGLE_CREDENTIALS) {
       return res.status(500).json({ error: 'Google credentials not configured' });
     }
-    console.log('GOOGLE_CREDENTIALS env:', process.env.GOOGLE_CREDENTIALS);
     const credentials = JSON.parse(process.env.GOOGLE_CREDENTIALS);
 
     const auth = new google.auth.GoogleAuth({
