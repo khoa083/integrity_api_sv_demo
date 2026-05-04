@@ -1,6 +1,6 @@
 # Decrypt and verify the integrity verdict
 > [!NOTE]
-> "If you want all the code in a single file, checkout to the <b>monofile</b> branch." ✅
+> "Code in a single file, checkout to the <b>monofile</b> branch." ✅
 
 - Decrypt and verify the integrity verdict
 After you request an integrity verdict, the Play Integrity API provides an encrypted response token. To obtain the device integrity verdicts, you must decrypt the integrity token on Google's servers. To do so, complete these steps:
